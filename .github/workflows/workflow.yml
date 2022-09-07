@@ -86,3 +86,4 @@ jobs:
           dns-name-label: alm-dnsname
           name: alm-name
           location: "Sweden Central"
+          ports: '8080'
