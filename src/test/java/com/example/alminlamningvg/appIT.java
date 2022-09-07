@@ -22,7 +22,7 @@ public class appIT {
     public void testHelloWorld(){
         RestAssured.registerParser("text/plain", Parser.HTML);
         when().get().then()
-                .statusCode(200)
+                .statusCode(201)
                 .body("html.body", equalTo("Hello World"));
     }
 }
