@@ -21,7 +21,7 @@
              <repository>
 		<id>github</id>
 		<name>GitHub Packages</name>
-	         <url>https://maven.pkg.github.com/robert-alfwar/maven-with-issues</url>
+	         <url>https://maven.pkg.github.com/EmilWikell/alm-inlamning-VG</url>
              </repository>
     </distributionManagement>    
      
