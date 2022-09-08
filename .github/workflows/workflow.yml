@@ -72,7 +72,7 @@ jobs:
       - name: "Login via Azure CLI"
         uses: azure/login@v1
         with:
-          creds: ${{ secrets.AZURE_                                            CREDENTIALS }}
+          creds: ${{ secrets.AZURE_           2                                 CREDENTIALS }}
 
       - run: echo ${{needs.build-and-push-image.outputs.tags}}
 
